@@ -2,15 +2,18 @@
 <div class="container">
     <div class="row">
         <div class="btn-group">
-            <a routerLinkActive="active" routerLink="nombre" [routerLinkActiveOptions]="{exact:true}" class="btn btn-primary">
+            <a routerLinkActive="active" routerLink="./nombre" [routerLinkActiveOptions]="{exact:true}" class="btn btn-primary">
                 Buscar por nombre
             </a>
-            <a routerLinkActive="active" routerLink="status" class="btn btn-primary ">
+            <a routerLinkActive="active" routerLink="./status" class="btn btn-primary ">
                 Buscar por status
             </a>
+
         </div>
     </div>
 </div>
+<router-outlet></router-outlet>
+
 <br>
 <table class="table table-striped table-hover">
     <thead>

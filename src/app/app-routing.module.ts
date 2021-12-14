@@ -11,7 +11,7 @@ const routes: Routes = [
     path: '',
     component: PersonajesComponent,
     children: [
-      { path: 'nombre', component: PorNombreComponent, pathMatch: 'full' },
+      { path: 'nombre', component: PorNombreComponent},
       { path: 'status', component: PorStatusComponent }
     ]
   },
